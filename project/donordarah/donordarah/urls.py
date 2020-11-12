@@ -21,7 +21,7 @@ urlpatterns = [
     path('', include('home.urls')),
     path('darah/', include('darah.urls')),
     path('login/', include('login.urls')),
-    # path('data/', include('data.urls')),
+    path('data/', include('data.urls')),
     # path('admin/', include('admin.urls')),
 
 ]

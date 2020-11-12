@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'home',
     'darah',
     'login',
-    # 'data',
+    'data',
     # 'admin',
 ]
 

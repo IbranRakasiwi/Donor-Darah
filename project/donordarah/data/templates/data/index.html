@@ -18,11 +18,9 @@
             <a style="margin-left: 20px; margin-bottom: 15px;" class="btn btn-sm btn-primary" href="{% url 'tambah' %}">LINK DONOR DARAH</a>
             <thead>
               <tr>
-                <th>ID Pasien</th>
+                <th>No Pasien</th>
                 <th>Nama Pasien</th>
-                <th>TTL</th>
                 <th>Jenis Kelamin</th>
-                <th>Golongan Darah</th>
                 <th>Alamat Pasien</th>
                 <th>No Hp</th>
                 <th>Action</th>
@@ -31,11 +29,9 @@
             <tbody>
               {% for d in data %}
               <tr>
-                <!-- <td>{{d.no_pasien}}</td> -->
+                <td>{{d.no_pasien}}</td>
                 <td>{{d.nama_pasien}}</td>
-                <td>{{d.ttl}}</td>
                 <td>{{d.jenis_kelamin}}</td>
-                <td>{{d.golongan_darah}}</td>
                 <td>{{d.alamat_pasien}}</td>
                 <td>{{d.no_hp}}</td>
                 <td style="text-align: center;">
